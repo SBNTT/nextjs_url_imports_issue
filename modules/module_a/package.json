@@ -1,0 +1,12 @@
+{
+  "name": "@noisuf_modules/module_a",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "yarn tsc",
+    "start": "yarn serve -p 3001 -c ../serve.json dist"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2",
+    "typescript": "^4.5.5"
+  }
+}
